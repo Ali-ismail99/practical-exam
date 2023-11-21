@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header ul {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+    list-style: none;
+    font-weight: 50;
+}
+.header ul li.blog{
+    color: blue;
+}
+
+.header button{
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 5;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 8px;
+    color: white;
+    font-size: 13px;
+    background-color: #0000ff;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 32px;
+}
+
+.left-side h2{
+     font-size: 12px;
+     margin-bottom: 22px;
+}
+.left-side h1{
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.left-side p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.left-side button{
+    background-color:white;
+    margin-right: 4%;
+    margin-top: 1%;
+    padding: 10px 20px;
+    font-size: 17px;
+    border: none;
+    border-radius: 12px;
+    background-color: white;
+}
+.rigth-side img {
+   
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 22px;
+}
+.main{
+    padding: 32px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+}
+
+development{
+    background-color: gainsboro;
+    /* margin-left: 12%;
+    margin-top: 18%; */
+}
+.development img{
+    position: relative;
+    height: 500px;
+    margin: 13px
+}
+.content{
+    position: absolute;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 0px 2px gray;
+    left: 31em;
+    bottom: -60em;
+}
+.content p{
+    margin-bottom: 20px;
+}
+
+.btn-game{
+    background-color:white;
+    margin-right: 4%;
+    margin-top: 1%;
+    padding: 10px 40px;
+    font-size: 17px;
+    border-radius: 12px;
+ 
+}
+.logo{
+display: flex;
+}
+.logo p{
+    padding-top: 2px;
+    font-size: 10px;
+    margin-left: 16px;
+}
+
+
+
+.our-Recent button{
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+    background-color: #0000ff;
+}
+.our-Recent{
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-img img{
+    width: 400px;
+    height: 400px;
+    border: none;
+    border-radius: 22px;
+}
+}
+.rigth-paragraph{
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 0px 2px gray;
+  
+    
+}
+.rigth-paragraph h1 {
+    margin-top: 20px;
+}
+.rigth-paragraph .google {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.recent-parent{
+    margin-top: 22px;
+    display: flex;
+    gap: 22px;
+    justify-content: space-between;
+}
+.travel-parent{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+
+}
+.travel{
+    
+    margin-top: 23px;
+    width: 230px;
+    height: 330px;
+}
+.travel img{
+    height: 230px;
+    width: 230px;
+}
+.travel h1{
+    font-size: 12px;
+}
